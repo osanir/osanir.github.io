@@ -1,15 +1,9 @@
-
 ---
-
 title: C Programlama Diline Giriş
-
 published: true
-
 ---
 
 İlk bölümde öğrendiğimiz bilgiler ile basit bir C programı yazabiliriz ve buna yorumlar ekleyebiliriz. Bu harika, ama kullanıcılar ile etkileşime geçmek daha güzel olmaz mı? Şanslıyız, C kullanıcıdan girdi (input) almamızı kabul ediyor. Bu bölümde C programlama ve değişkenler üzerinde duracağız.
-
-  
 
 ## Değişkenler
 
