@@ -1,5 +1,5 @@
 ---
-title: C Programlama Diline Giriş
+title: Değişkenler (Variables) - C Programlama
 published: true
 ---
 
