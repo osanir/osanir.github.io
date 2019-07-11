@@ -1,6 +1,6 @@
 ---
 layout: page
-title: arşiv
+title: Archive
 ---
 
 <section>

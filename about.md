@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ben
+title: About
 ---
 
 Something about me.
