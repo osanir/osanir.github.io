@@ -36,7 +36,7 @@ Değişken tanımlamaya birkaç örnek verelim:
 
 Aynı tipte birden fazla değişkene sahip olabilirsiniz ama aynı ada sahip birden fazla değişkeniniz olamaz. Tipleri farklı bile olsa aynı isimde iki değişken kullanmayın.
 
-##### Son olarak; {.example}
+##### Son olarak;
 
 Değişkenler ile ilgili son olarak şunu söyleyelim: Değişken tanımlamanızı değişkeni kullanmadan önce yapmalısınız. Programların yukarıdan aşağıya okunduğunu unutmayın. Yani tanımlamanız kod bloğunuzun üzerinde bulunmalı.
 
