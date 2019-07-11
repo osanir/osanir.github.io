@@ -1,7 +1,7 @@
-
-# C Programlama Diline Giriş
-
-##### Şubat 2, 2017
+---
+title: C Programlama Diline Giriş
+published: true
+---
 
 Bu C programlama eğitim serisi temel seviye eğitimden başlayıp ileri seviye eğitime doğru yol alacaktır. Eğitim serisi birçok yabancı kaynağın Türkçeleştirilmesi temeline dayanarak hazırlanmıştır. Bu seriyi takip ederek C programlama dilini iyi bir şekilde öğreneceğinize emin olabilirsiniz. Eğer daha önce herhangi bir temeliniz yoksa endişelenmeyin.
 
@@ -16,7 +16,7 @@ Bir derleyicinin çalışma şekli.
 ## C Programlama’ya Giriş
 
 Her bir bitmiş C programı “main” denilen bir fonksiyon ile başlar. Bir fonksiyon basitçe, bir şeyler yapan komutlar dizisidir. Program çalıştırıldığında ilk çağrılan fonksiyon main fonksiyonudur. Adından da anlaşılacağı üzere “main function”, “ana fonksiyon” demektir. İster bizim tarafımızdan yazılmış olsun ister başkaları tarafından yazılmış olsun, ana fonksiyondan diğer bütün fonksiyonları çağırabiliriz. Derleyici ile birlikte gelen standart fonksiyonlara erişmek için, #include yönergesiyle bir başlık (header) (kütüphane olarak da geçer) eklemeniz gerekir. Bu, başlıktaki (header) her şeyi alır ve programınızın içine gönderir. Çalışan bir programa göz atalım:
-
+```
 #include <stdio.h>
 int main()
 {
@@ -24,7 +24,7 @@ int main()
     getchar();
     return 0;
 }
-
+```
 ### Şimdi programdaki unsurlara bir bakalım:
 
 #### #include <stdio.h>
@@ -38,13 +38,13 @@ Bir sonraki önemli satır ise **int main()** dir. Bu satır derleyiciye _main_ 
 #### printf()
 
 **Printf fonksiyonu**, C dilinde çıktıyı ekranda görüntülemenin standart bir yoludur. Tırnak işaretleri derleyiciye, içine yazılan dizgenin hiçbir değişiklik olmadan, olduğu gibi çıktı alınmasını bildirir. Tabi yukarıdaki programı çalıştırdıysanız, tırnak işaretleri arasında ‘**\n**‘ dizisi var ve çıktımızın normalde şu şekilde olmasını beklerken:
-
+```
 Hayattayım!  Dikkat et.\n
-
+```
 şu şekilde olduğunu görüyoruz:
-
+```
 Hayattayım!  Dikkat et.
-
+```
 Hemen bunun sebebini açıklayalım ‘\n’ dizisi aslında yeni bir satırı temsil eden tek bir karakter olarak ele alınır. Dikkat ettiyseniz çıktımızda 2. satıra atlandığı için kutucuk üsttekine nazaran daha geniş bir yer kaplıyor. C’de bunun gibi çokça “_kaçış dizisi (escape sequences)_” bulunuyor (bundan sonra daha ayrıntılı olarak bahsedeceğiz). Şimdilik kaçış dizilerinin printf fonksiyonu tarafından ekrana doğrudan yazdırılmadığını ve ‘\n’ in bunlardan biri olduğunu bilelim. ‘\n’ dizisinin asıl yaptığı iş, imlecinizin bir sonraki satıra atlamasını sağlamaktır.
 
 **Noktalı virgül**e (‘;’) dikkat edin: derleyiciye, bir komutun sonuna gelindiğini söyler. Noktalı virgülün C’de birçok satırı sonlandırmak için kullanıldığını göreceksiniz.
