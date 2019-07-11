@@ -1,3 +1,31 @@
+---
+id: 936
+title: C Programlama Diline Giriş
+date: 2017-02-02T21:30:36+00:00
+author: admin
+layout: post
+guid: http://46.101.185.50/?p=936
+permalink: /yazilim/c-programlama-diline-giris/
+colormag_page_layout:
+  - default_layout
+views:
+  - "1529"
+yuzo_related_post_metabox:
+  - 'a:3:{s:17:"yuzo_include_post";s:0:"";s:17:"yuzo_exclude_post";s:0:"";s:21:"yuzo_disabled_related";N;}'
+image: /wp-content/uploads/2017/02/c-lang-logo1.jpg
+categories:
+  - C Programlama
+  - Yazılım
+tags:
+  - C
+  - C Comment
+  - C dili
+  - C programlama
+  - C Programlama Dili
+  - C Programlama Diline Giriş
+  - "C'ye giriş"
+  - Temel C
+---
 
 # C Programlama Diline Giriş
 
