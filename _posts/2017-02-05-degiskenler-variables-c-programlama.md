@@ -73,7 +73,7 @@ Bunu da biri doğru biri yanlış olan iki örnek ile gösterelim:
 
 **Hatalı**
 
-```
+```c
 
 #include <stdio.h>
 
@@ -97,7 +97,7 @@ return 0;
 
 **Doğru**
 
-```
+```c
 
 int main()
 
@@ -123,7 +123,7 @@ C programlama dilinde giriş-çıkışlar için değişkenleri kullanmak başta 
 
   
 
-```
+```c
 
 int main()
 
@@ -213,7 +213,7 @@ toplamak için **+**,
 
 Birkaç örnek verelim:
 (Yorum kullanımını ve noktalı virgüllere dikkat edin.)
-```
+```c
 a = 4 * 6; /* a değişkenine 24 atandı. */
 a = a + 5; /* a değişkenine, a değişkeninin orjinal değerine 5 eklenmiş hali atandı. */
 a == 5     /* a değişkenine 5 ATANMADI! a değişkeninin değeri ile 5 in eşitliği kontrol ediliyor.*/
@@ -223,18 +223,18 @@ Eşitliğin gösterimi olan "\=\=", atamanın bir diğer yolu değildir. C progr
 ## Deneyerek test etmeyi unutmayın!
 
 Şöyle bir ifade yazarak test edebilirsiniz.
-```
+```c
 printf("%d",4==2*2); /* Ekrana 1 yazdıracaktır. */
 printf("%d",4==3*3); /* Ekrana 0 yazdıracaktır. */
 ```
 Tahmin edebileceğiniz üzere "<" ve ">" operatörlerimiz de büyüklük küçüklük kontrolü yapıyor. Buna da birkaç örnek verelim.
-```
+```c
 a < 5 /* a 'nın 5 'ten küçük olma durumunu kontrol eder. */
 a > 5 /* a 'nın 5 'ten büyük olma durumunu kontrol eder.*/
 a == 5 /* a 'nın 5 'e eşit olma durumunu kontrol eder.*/
 ```
 Bir ifadenin doğruluğu sonucu 1 değerini döndürdüğünü söylemiştik. Verdiğimiz eşitlik örneğine ek olarak büyüklük küçüklük durumları içinde ifade doğru ise 1 değeri dönecektir. Şöyle örnek verelim buna da:
-```
+```c
 printf("%d",4 > 3); /* Ekrana 1 yazdıracaktır. */
 printf("%d",4 < 3); /* Ekrana 0 yazdıracaktır. */
 printf("%d",3 > 4); /* Ekrana 0 yazdıracaktır. */
