@@ -5,12 +5,6 @@ title: GNU/Linux Temel Komutlar
 date: 2017-08-27T13:13:28+00:00
 author: admin
 layout: post
-guid: http://46.101.185.50/?p=1068
-permalink: /linux/gnu-linux-temel-komutlar/
-colormag_page_layout:
-  - default_layout
-views:
-  - "878"
 image: /wp-content/uploads/2017/08/DeepinScreenshot_20170827154901.png
 categories:
   - Linux
