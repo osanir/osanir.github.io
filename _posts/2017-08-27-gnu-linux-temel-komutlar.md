@@ -1,20 +1,8 @@
-
 ---
-id: 1068
 title: GNU/Linux Temel Komutlar
-date: 2017-08-27T13:13:28+00:00
-author: admin
-layout: post
-image: /wp-content/uploads/2017/08/DeepinScreenshot_20170827154901.png
-categories:
-  - Linux
-tags:
-  - gnu
-  - komut
-  - komut satırı
-  - linux
-  - temel komutlar
+published: true
 ---
+
 Linux işletim sistemine yeni geçtiyseniz temel gnu/linux komutlarını bulmakta zorlanabilirsiniz. Bu bölümde başlagınçta işinize yarayacak birçok gnu/linux komutunu bulabilirsiniz. Bu yazının devamı niteliğinde bir yazı daha gelebilir.
 
 Önemli tüm diğer temel linux komutlarını vermeden önce bahsetmek istediğim bir komut var. Bu komut "**man**" komutu. man komutu sayesinde kullanımını bilmediğiniz komutların nasıl kullanıldıklarını, ne işe yaradıklarını, yaratıcısını ve benzer komutları öğrenebilirsiniz.

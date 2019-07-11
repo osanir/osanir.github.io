@@ -1,23 +1,8 @@
 ---
-id: 936
 title: C Programlama Diline Giriş
-date: 2017-02-02T21:30:36+00:00
-author: admin
-layout: post
-image: /wp-content/uploads/2017/02/c-lang-logo1.jpg
-categories:
-  - C Programlama
-  - Yazılım
-tags:
-  - C
-  - C Comment
-  - C dili
-  - C programlama
-  - C Programlama Dili
-  - C Programlama Diline Giriş
-  - "C'ye giriş"
-  - Temel C
+published: true
 ---
+
 Bu C programlama eğitim serisi temel seviye eğitimden başlayıp ileri seviye eğitime doğru yol alacaktır. Eğitim serisi birçok yabancı kaynağın Türkçeleştirilmesi temeline dayanarak hazırlanmıştır. Bu seriyi takip ederek C programlama dilini iyi bir şekilde öğreneceğinize emin olabilirsiniz. Eğer daha önce herhangi bir temeliniz yoksa endişelenmeyin.
 
 ## Kurulum – C Derleyicisi Bulma
