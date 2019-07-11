@@ -8,8 +8,7 @@ Linux işletim sistemine yeni geçtiyseniz temel gnu/linux komutlarını bulmakt
 Önemli tüm diğer temel linux komutlarını vermeden önce bahsetmek istediğim bir komut var. Bu komut "**man**" komutu. man komutu sayesinde kullanımını bilmediğiniz komutların nasıl kullanıldıklarını, ne işe yaradıklarını, yaratıcısını ve benzer komutları öğrenebilirsiniz.
 
 Manual kelimesinin kısatlması olan **man**, gnu/linux üzerinde kullanılan komutların manual sayfalarını görmenizi sağlar.
-man `komut` 
-şeklinde kullanılır. Örneğin **man touch** ile touch komutu hakkında bilgi edinebilirsiniz.
+man `komut` şeklinde kullanılır. Örneğin **man touch** ile touch komutu hakkında bilgi edinebilirsiniz.
 
 ## Dizinler/Klasörler Arasında Gezme ve İçeriğini Listeleme
 **pwd** 
