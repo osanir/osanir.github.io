@@ -54,7 +54,7 @@ int main()
 	return 0;
 }
 ```
-
+ 
 **Doğru**
 
 ```c
@@ -149,3 +149,4 @@ printf("%d",3 < 2*2); /* Ekrana 1 yazdıracaktır. */
 ```
 Bu bölümde değişkenlerden, nasıl kullanabileceğimizden, input output yani giriş çıkışlardan, scanf ve printf fonksiyonunu çalışma şeklinden bahsettik.
 Sonraki bölümde koşullu ifadeler olan If-Else ifadelerine göz atacağız.
+
