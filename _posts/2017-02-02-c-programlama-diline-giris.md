@@ -44,6 +44,7 @@ Hayattayım!  Dikkat et.\n
 şu şekilde olduğunu görüyoruz:
 ```
 Hayattayım!  Dikkat et.
+
 ```
 Hemen bunun sebebini açıklayalım ‘\n’ dizisi aslında yeni bir satırı temsil eden tek bir karakter olarak ele alınır. Dikkat ettiyseniz çıktımızda 2. satıra atlandığı için kutucuk üsttekine nazaran daha geniş bir yer kaplıyor. C’de bunun gibi çokça “_kaçış dizisi (escape sequences)_” bulunuyor (bundan sonra daha ayrıntılı olarak bahsedeceğiz). Şimdilik kaçış dizilerinin printf fonksiyonu tarafından ekrana doğrudan yazdırılmadığını ve ‘\n’ in bunlardan biri olduğunu bilelim. ‘\n’ dizisinin asıl yaptığı iş, imlecinizin bir sonraki satıra atlamasını sağlamaktır.
 
